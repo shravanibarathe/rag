@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pgvector
+pydantic-settings
+python-multipart
+langchain
+langchain-google-genai
+google-genai
+langchain-community
+langchain-text-splitters
+pymupdf
+redis
+python-dotenv
+tiktoken
