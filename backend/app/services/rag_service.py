@@ -31,7 +31,7 @@ class RAGService:
         )
         self.cache_ttl = 3600
 
-        self.model_fallback = ["models/gemini-2.0-flash", "models/gemini-flash-latest", "models/gemini-1.5-flash"]
+        self.model_fallback = ["models/gemini-2.0-flash", "models/gemini-flash-latest"]
 
     def _get_cache_key(self, prompt: str) -> str:
         return hashlib.md5(prompt.encode('utf-8')).hexdigest()
